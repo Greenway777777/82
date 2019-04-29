@@ -1,0 +1,311 @@
+.contain {
+    width: 100%;
+    padding-top: 5.34%;
+}
+
+.title {
+    padding-left: 5.34%;
+    font-size: 2.4em;
+    color: #333333;
+    line-height: 100%;
+}
+
+.header_content {
+    padding-left: 5.34%;
+    margin-top: 4.3%;
+    font-size: 1.5em;
+    color: #95a0b1;
+    line-height: 150%;
+}
+
+.header_footer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    margin-top: 9.67%;
+    padding-bottom: 80%;
+    overflow: hidden;
+}
+
+.header_img {
+    position: absolute;
+    width: 100%;
+    height: 106.8%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    /*-webkit-overflow-scrolling: touch;*/
+    /*-ms-overflow-style: none;*/
+    padding-bottom: 5.34%;
+}
+
+.header_div {
+    height: 100%;
+}
+
+.header_div img {
+    height: 100%;
+    padding-left: 1.67em;
+    float: left;
+}
+
+
+.banner_contain {
+    position: relative;
+    width: 100%;
+    height: 0;
+    margin-top: 9.67%;
+    padding-bottom: 80%;
+    overflow: hidden;
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    /*-webkit-overflow-scrolling: touch;*/
+    /*-ms-overflow-style: none;*/
+    padding-bottom: 5.34%;
+}
+
+.banner_container {
+    height: 100%;
+}
+
+.banner_container a {
+    float: left;
+    height: 100%;
+    padding-left: 1.67em;
+}
+
+.banner_container img {
+    height: 100%;
+}
+
+.content_one {
+    margin-top: 10.67%;
+    width: 100%;
+}
+
+.title_one {
+    font-size: 2.4em;
+    /* font-weight: bolder; */
+    color: #666666;
+    padding-left: 5.34%;
+    line-height: 100%;
+}
+
+.content_block {
+    margin-top: 0.2%;
+    width: 100%;
+    height: 0;
+    background: url("../images/card_bg.png") no-repeat;
+    background-size: 94% auto;
+    padding-bottom: 48%;
+    background-position: center;
+}
+
+.block_left {
+    float: left;
+    width: 46%;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+.block_right {
+    float: right;
+    width: auto;
+    margin-right: 13%;
+}
+
+.block_right img {
+    margin-top: -13%;
+}
+
+.block_title {
+    font-size: 2.4em;
+    color: #333333;
+    margin-left: 10%;
+    padding-top: 8%;
+}
+
+.block_content {
+    font-size: 1.5em;
+    color: #666666;
+    margin-left: 10%;
+    padding-top: 4.5%;
+}
+
+.block_footer {
+    font-size: 1.5em;
+    color: #ff7633;
+    margin-left: 10%;
+    padding-top: 8%;
+}
+
+.block_footer span {
+    color: #ff7633;
+}
+
+
+.hot {
+    width: 100%;
+    margin-top: 7.67%;
+}
+
+.hot_card {
+    position: relative;
+    width: 100%;
+    height: 0;
+    background: url("../images/card_bg2.png") no-repeat;
+    background-position: center;
+    background-size: 94% auto;
+    padding-bottom: 43%;
+}
+
+.card_left {
+    float: left;
+    width: 27%;
+    padding-left: 11%;
+    padding-top: 8%;
+}
+
+.card_left img {
+    width: 90%;
+}
+
+.card_right {
+    float: right;
+    width: 60%;
+    padding-top: 7%;
+}
+
+.card_title {
+    color: #333333;
+    font-size: 2.4em;
+    /* font-weight: bolder; */
+}
+
+.card_slogan {
+    color: #666666;
+    padding-right: 5.3%;
+    font-size: 1.5em;
+    line-height: 120%;
+    margin-top: 3%;
+}
+
+.card_price {
+    color: #ff7633;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+
+/*热门活动*/
+.hot_activity {
+    width: 100%;
+    margin-top: 8.2%;
+}
+
+.activity_bck {
+    position: relative;
+    margin: 5.34% auto 0;
+    width: 89.3%;
+    height: 0;
+    background: url("../images/ha_bg.png") no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 25%;
+}
+
+.activity_left {
+    float: left;
+    padding-top: 7%;
+    padding-left: 6%;
+}
+
+.activity_right {
+    float: right;
+}
+
+.activity_title {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.activity_slogan {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.activity_btn {
+    position: absolute;
+    top: 31%;
+    left: 66.9%;
+    width: 27%;
+    background: url(../images/btn_bg.png) no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    color: #f54651;
+    font-size: 1.4em;
+    padding: 3% 0;
+}
+
+/*footer*/
+.company {
+    margin-top: 10.4%;
+    font-size: 1.8em;
+    text-align: center;
+    color: #b3bcca;
+    line-height: 100%;
+}
+
+.contact {
+    margin-top: 10.67%;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fc4e5a;
+    line-height: 100%;
+}
+
+.logo {
+    margin-top: 5.34%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.logo img {
+    width: 37%;
+}
+
+/*form 表单css属性*/
+.form {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    border: 1px solid #ff7633;
+    border-radius: 0.5rem;
+}
+
+.form_item {
+    height: 2.8rem;
+    line-height: 2.8rem;
+}
+
+.form input, .form select, .form button, .form div[type='button'] {
+
+    font-size: 1.4rem;
+}
+
+.form button, .form div[type='button'] {
+    margin-top: 1.4rem;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ff7633;
+    background-color: #ff7633;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.form input[name='name'], .form input[name='mobile'] {
+    width: 70%;
+}
