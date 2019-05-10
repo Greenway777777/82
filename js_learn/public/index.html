@@ -3,8 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>JS</title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+
 </head>
 <body>
+    <div id="content" style="background-color: #00B7FF">
 
+    </div>
+    <script>
+        var x = 8080;
+        console.log(x);
+
+        var items=[
+            {id:"1",name:"tom",age:"20",sex:"male"},
+            {id:"2",name: "tina",age: "19",sex: "female"},
+            {id:"3",name:"alex",age:"22",sex:"male"}]
+        console.log(items);
+
+        for (var i = 0; i < items.length; i++) {
+            var item = items[i];
+            console.log("Single item:",item);
+            $('#content').append("<div class='name' id='"+item.id+"'>"+item.name+"</div>");
+
+        }
+
+        $('.name').click(function () {
+            //$(this).html("hi")
+            var id=$(this).attr('id');
+            window.location.href="server.html?id="+id;
+        })
+    </script>
 </body>
 </html>
